@@ -10,12 +10,16 @@ package edu.bernardino.calculadora;
 public class Calculadora {
 
     public static void main(String[] args) {
-        int suma=Calculadora.sumar(50,55);
+        int suma=Calculadora.sumar(80,55);
         System.out.println("El resultado de la suma es:"+suma);
     }
 
     public static int sumar(int a, int b) {//acceso loquedevulve nombreMetodo ()
         int resultado = a + b;
         return resultado;
+    }
+    
+    public static int resta(int a, int b){
+        return -1;
     }
 }
