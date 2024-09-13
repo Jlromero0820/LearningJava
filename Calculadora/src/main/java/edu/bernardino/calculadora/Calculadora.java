@@ -20,6 +20,7 @@ public class Calculadora {
     }
     
     public static int resta(int a, int b){
-        return -1;
+        int resultado=a-b;
+        return resultado;
     }
 }
