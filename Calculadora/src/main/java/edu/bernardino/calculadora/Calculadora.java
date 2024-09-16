@@ -8,19 +8,15 @@ package edu.bernardino.calculadora;
  * @author Jonanyu 11.2
  */
 public class Calculadora {
-
-    public static void main(String[] args) {
-        int suma=Calculadora.sumar(80,55);
-        System.out.println("El resultado de la suma es:"+suma);
-    }
-
-    public static int sumar(int a, int b) {//acceso loquedevulve nombreMetodo ()
-        int resultado = a + b;
-        return resultado;
-    }
     
-    public static int resta(int a, int b){
-        int resultado=a-b;
-        return resultado;
+    public static void main(String[] args) {
+      //Creacion de objeto
+      Fraccion f1=new Fraccion(10,2);//Contruir el objeto previamente
+      //Primitivos int, float, double, boolean
+      //Tipos de datos compuestos son clases
+      Fraccion f2=new Fraccion(8,2);
+      
+      System.out.println(f1.sumar(f2));
+  
     }
 }
